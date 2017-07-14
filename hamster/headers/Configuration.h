@@ -32,7 +32,7 @@ class Configuration
 		Goal mGoal;
 		RobotSize mRobotSize;
 		double mMapResolutionCM;
-		double mGridResolutionCM;
+		//double mGridResolutionCM;
 		std::string mMapFile;
 
 		std::string ReadString(const char* szKey);
@@ -70,10 +70,10 @@ class Configuration
 			return (this->mMapResolutionCM);
 		}
 
-		double gridResolution()
-		{
-			return (this->mGridResolutionCM);
-		}
+		//double gridResolution()
+		//{
+		//	return (this->mGridResolutionCM);
+		//}
 
 		std::string map()
 		{

@@ -1,14 +1,15 @@
 
-//#include "../headers/Configuration.h"
+#include "../headers/Configuration.h"
 #include <iostream>
 
-#define CONFIG_PATH "/usr/robotics/PcBotWorldNew/params/parameters.txt"
+#define CONFIG_PATH "/home/user/OptimusPrime/hamster/params/parameters.txt"
 
 using namespace std;
 
 int main()
 {
-//	Configuration::Init(CONFIG_PATH);
+	Configuration::Init(CONFIG_PATH);
+
 //	Map* map = new Map();
 //	Robot* robot = new Robot(map->mapHeight());
 
